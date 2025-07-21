@@ -40,7 +40,7 @@
 
 🚀 TroubleShooting
 1️⃣ 직업 클래스 분리의 한계와 구조 개선
-<p align="center"> <img src="https://github.com/user-attachments/assets/47808fec-57a5-4cbb-a315-e8c7c9c67962" width="48%"> <img src="https://github.com/user-attachments/assets/6ee050ce-3498-4b37-a7f8-f5291f270163" width="48%"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/47808fec-57a5-4cbb-a315-e8c7c9c67962" width="48%"> <img src="https://github.com/user-attachments/assets/6ee050ce-3498-4b37-a7f8-f5291f270163" width="48%"> </p>  
 - 초기 설계에서는 직업마다 클래스를 따로 정의하여 능력치와 스킬을 관리했습니다.  
 - 하지만 이 방식은 클래스 간 중복 코드가 많아지고,  
 - 새로운 직업이 추가될 때마다 클래스를 새로 생성해야 하는 단점이 있었습니다.  
@@ -51,7 +51,7 @@
 
     
 2️⃣ 퀘스트 클래스 세분화  
-<p align="center"> <img src="https://github.com/user-attachments/assets/8aa3e594-541b-4c16-bd03-502d9ce9cd33" width="48%"> <img src="https://github.com/user-attachments/assets/85f85828-4dd9-4979-8859-9a65baea2f8c" width="48%"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/8aa3e594-541b-4c16-bd03-502d9ce9cd33" width="48%"> <img src="https://github.com/user-attachments/assets/85f85828-4dd9-4979-8859-9a65baea2f8c" width="48%"> </p>  
 - 초기에는 단일 Quest 클래스가 모든 퀘스트 데이터를 관리했습니다.    
 - 이로 인해 조건 검사, 보상 처리, UI 출력 등 다양한 책임이 한 클래스에 집중되어 있었습니다.  
   
@@ -63,7 +63,7 @@
 
     
 3️⃣ 재귀 호출: 상태 기반 전투 흐름의 구조적 개선  
-<p align="center"> <img src="https://github.com/user-attachments/assets/bd198891-316d-4176-b7db-0a1430df3677" width="48%"> <img src="https://github.com/user-attachments/assets/37396ca3-c291-4fc1-985c-916b05b8d98f" width="48%"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/bd198891-316d-4176-b7db-0a1430df3677" width="48%"> <img src="https://github.com/user-attachments/assets/37396ca3-c291-4fc1-985c-916b05b8d98f" width="48%"> </p>  
 - 기존 전투 흐름은 MainUI → EncounterUI → Result → MainUI 구조에서  
 - 각 메서드가 서로를 재귀적으로 호출하는 방식이었습니다.  
   
@@ -75,7 +75,7 @@
 
     
 4️⃣ 전투 체력 추적 구조 개선: a = b, b = c, c = a
-<p align="center"> <img src="https://github.com/user-attachments/assets/bb036cc4-371a-4469-b714-e9b67ef8f1d6" width="48%"> <img src="https://github.com/user-attachments/assets/a52db704-e1c6-47e2-9e70-c082bc6ffc41" width="48%"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/bb036cc4-371a-4469-b714-e9b67ef8f1d6" width="48%"> <img src="https://github.com/user-attachments/assets/a52db704-e1c6-47e2-9e70-c082bc6ffc41" width="48%"> </p>  
 - 전투 중 HP 변화가 콘솔에 명확히 출력되지 않거나,  
 - 결과 화면에서 직관적으로 보이지 않는 문제가 있었습니다.  
   
@@ -89,7 +89,7 @@
 
     
 5️⃣ 아이템 효과 구조의 한계
-<p align="center"> <img src="https://github.com/user-attachments/assets/991755ea-41c7-4745-b09e-0ec7b18899b5" width="48%"> <img src="https://github.com/user-attachments/assets/e4c29080-0ec2-4c67-aaea-17ee77ef84a7" width="48%"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/991755ea-41c7-4745-b09e-0ec7b18899b5" width="48%"> <img src="https://github.com/user-attachments/assets/e4c29080-0ec2-4c67-aaea-17ee77ef84a7" width="48%"> </p>  
 - 기존에는 장비 클래스 내에서 아이템 효과를 개별 변수로 선언해 관리했습니다.  
 - 이 방식은 새로운 효과가 생길 때마다 변수를 추가해야 했고,  
 - 하나의 아이템이 여러 효과를 가지는 데 어려움이 있었습니다.  
