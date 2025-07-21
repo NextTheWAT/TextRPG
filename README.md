@@ -26,4 +26,6 @@
 1. Visual Studio 또는 VS Code에서 솔루션 열기
 2. Program.cs 실행
 3. 콘솔 창에서 캐릭터 생성 → 게임 플레이
+
+
 ![Text_RPG](https://github.com/user-attachments/assets/e6dddef7-eb3b-44ce-b8a2-c9f12f42ad8a)
