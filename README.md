@@ -34,9 +34,22 @@
 3. 콘솔에서 지시에 따라 플레이 진행
 ---
 
-
-
-
-
-
+## 🚀 GIF
 ![Text_RPG](https://github.com/user-attachments/assets/e6dddef7-eb3b-44ce-b8a2-c9f12f42ad8a)
+
+
+## 🚀 트러블슈팅
+
+<img width="1452" height="812" alt="image" src="https://github.com/user-attachments/assets/47808fec-57a5-4cbb-a315-e8c7c9c67962" />
+<img width="1452" height="812" alt="image" src="https://github.com/user-attachments/assets/6ee050ce-3498-4b37-a7f8-f5291f270163" />
+
+
+
+
+
+
+
+
+
+
+
