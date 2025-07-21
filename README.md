@@ -37,20 +37,12 @@
 ## 🚀 GIF
 ![Text_RPG](https://github.com/user-attachments/assets/e6dddef7-eb3b-44ce-b8a2-c9f12f42ad8a)
 
-## 🚀 트러블슈팅
+🚀 트러블슈팅
+<p align="center"> <img src="https://github.com/user-attachments/assets/47808fec-57a5-4cbb-a315-e8c7c9c67962" width="48%"> <img src="https://github.com/user-attachments/assets/6ee050ce-3498-4b37-a7f8-f5291f270163" width="48%"> </p>
+장착 아이템 능력치가 저장/불러오기 시 반영되지 않는 문제를 해결한 과정입니다.
+플레이어 상태만 저장하고 장비 효과는 저장하지 않아 발생한 문제였고, 불러올 때 장착 장비 효과를 재적용하도록 수정하여 해결했습니다.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/47808fec-57a5-4cbb-a315-e8c7c9c67962" width="48%">
-  <img src="https://github.com/user-attachments/assets/6ee050ce-3498-4b37-a7f8-f5291f270163" width="48%">
-</p>
-
-> 장착 아이템 능력치가 저장/불러오기 시 반영되지 않는 문제를 해결한 과정입니다.  
-> 플레이어 상태만 저장하고 장비 효과는 저장하지 않아 발생한 문제였고, 불러올 때 장착 장비 효과를 재적용하도록 수정하여 해결했습니다.
-
-
-
-
-
+<p align="center"> <img src="https://github.com/user-attachments/assets/8aa3e594-541b-4c16-bd03-502d9ce9cd33" width="48%"> <img src="https://github.com/user-attachments/assets/85f85828-4dd9-4979-8859-9a65baea2f8c" width="48%"> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/bd198891-316d-4176-b7db-0a1430df3677" width="48%"> <img src="https://github.com/user-attachments/assets/37396ca3-c291-4fc1-985c-916b05b8d98f" width="48%"> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/bb036cc4-371a-4469-b714-e9b67ef8f1d6" width="48%"> <img src="https://github.com/user-attachments/assets/a52db704-e1c6-47e2-9e70-c082bc6ffc41" width="48%"> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/991755ea-41c7-4745-b09e-0ec7b18899b5" width="48%"> <img src="https://github.com/user-attachments/assets/e4c29080-0ec2-4c67-aaea-17ee77ef84a7" width="48%"> </p>
 
 
 
