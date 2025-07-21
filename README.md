@@ -34,18 +34,6 @@
 3. 콘솔에서 지시에 따라 플레이 진행
 ---
 
-## 📂 폴더 구조
-TextRPG/
-┣ Battle/ # 전투 로직
-┣ Player/ # 플레이어 정보 및 직업별 클래스
-┣ Monster/ # 몬스터 DB 및 몬스터 클래스
-┣ Quest_Folder/ # 퀘스트 시스템
-┣ Save_Folder/ # 저장/불러오기 관련
-┣ UI/ # 콘솔 UI 출력
-┣ Skill_Folder/ # 스킬 클래스
-┗ Program.cs # 진입점
-
-
 
 
 
